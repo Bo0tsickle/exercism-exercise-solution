@@ -1,0 +1,5 @@
+/Users/vihaanreddi/Exercism/csharp/roll-the-die/obj/Debug/net7.0/RollTheDie.csproj.AssemblyReference.cache
+/Users/vihaanreddi/Exercism/csharp/roll-the-die/obj/Debug/net7.0/RollTheDie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vihaanreddi/Exercism/csharp/roll-the-die/obj/Debug/net7.0/RollTheDie.AssemblyInfoInputs.cache
+/Users/vihaanreddi/Exercism/csharp/roll-the-die/obj/Debug/net7.0/RollTheDie.AssemblyInfo.cs
+/Users/vihaanreddi/Exercism/csharp/roll-the-die/obj/Debug/net7.0/RollTheDie.csproj.CoreCompileInputs.cache
