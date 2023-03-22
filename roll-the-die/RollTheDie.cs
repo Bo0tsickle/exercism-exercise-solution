@@ -11,6 +11,8 @@ public class Player
     public double GenerateSpellStrength()
     {
         Random random = new Random();
-        return random.Next(0.0, 100.0);
+        int integer = random.Next(1, 100);
+        double decimalAddition = random.NextDouble();
+        return integer + decimalAddition;  
     }
 }
