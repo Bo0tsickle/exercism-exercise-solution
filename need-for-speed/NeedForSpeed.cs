@@ -14,7 +14,7 @@ class RemoteControlCar
     public bool BatteryDrained()
     {
         bool isTrue = false;
-        battery == 0 ? isTrue = true: isTrue = false;
+        isTrue = battery == 0 ? true: false;
         return isTrue;
     }
     public int DistanceDriven()
