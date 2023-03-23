@@ -4,6 +4,7 @@ class RemoteControlCar
 {
     private int speed;
     private int batteryDrain = 0;   
+    private int distanceDriven;
 
     public void RemoteControlCar(int inputSpeed, int inputBatteryDrain) {
        speed = inputSpeed;
@@ -19,7 +20,7 @@ class RemoteControlCar
     }
     public void Drive()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.Drive() method");
+        
     }
     public static RemoteControlCar Nitro()
     {
