@@ -23,8 +23,11 @@ class RemoteControlCar
     }
     public void Drive()
     {
-        distanceDriven += speed;
-        battery -= batteryDrain;
+        if (BatteryDrained())
+        {
+            distanceDriven += speed;
+            battery -= batteryDrain;
+        }
     }
     public static RemoteControlCar Nitro()
     {
@@ -42,6 +45,10 @@ class RaceTrack
     }
     public bool TryFinishTrack(RemoteControlCar car)
     {
-        throw new NotImplementedException("Please implement the RaceTrack.TryFinishTrack() method");
+        for (int i = 0; i < distance; i++) {
+            car.Drive();
+        }
+        if (car.DistanceDriven() >= distance) return true;
+        else return false;
     }
 }
