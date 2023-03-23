@@ -29,8 +29,11 @@ class RemoteControlCar
 
 class RaceTrack
 {
-    // TODO: define the constructor for the 'RaceTrack' class
+    private int distance;
 
+    public void RaceTrack(int inputDistance) {
+        distance = inputDistance;
+    }
     public bool TryFinishTrack(RemoteControlCar car)
     {
         throw new NotImplementedException("Please implement the RaceTrack.TryFinishTrack() method");
