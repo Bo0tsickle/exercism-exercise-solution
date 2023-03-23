@@ -6,7 +6,7 @@ class RemoteControlCar
     private int batteryDrain = 0;   
     private int distanceDriven;
 
-    public void RemoteControlCar(int inputSpeed, int inputBatteryDrain) {
+    public RemoteControlCar(int inputSpeed, int inputBatteryDrain) {
        speed = inputSpeed;
        batteryDrain = inputBatteryDrain; 
     }
@@ -16,11 +16,11 @@ class RemoteControlCar
     }
     public int DistanceDriven()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.DistanceDriven() method");
+        return distanceDriven;
     }
     public void Drive()
     {
-        
+        distanceDriven += speed;
     }
     public static RemoteControlCar Nitro()
     {
@@ -32,7 +32,7 @@ class RaceTrack
 {
     private int distance;
 
-    public void RaceTrack(int inputDistance) {
+    public RaceTrack(int inputDistance) {
         distance = inputDistance;
     }
     public bool TryFinishTrack(RemoteControlCar car)
